@@ -1,1 +1,3 @@
-IServiceManager::asInterface是通过DECLARE_META_INTERFACE(ServiceManager)宏在IServiceManager类中声明的
+IServiceManager::asInterface是通过DECLARE_META_INTERFACE(ServiceManager)宏在IServiceManager类中声明的，可以写在ｂｐ的.h中。
+
+IServiceManager::asInterface的实现是通过IMPLEMENT_META_INTERFACE(ServiceManager, "android.os.IServiceManager")宏定义的 ，可以直接写在ｂｐ的ｃｐｐ中。
