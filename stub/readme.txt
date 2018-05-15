@@ -1,0 +1,1 @@
+IServiceManager::asInterface是通过DECLARE_META_INTERFACE(ServiceManager)宏在IServiceManager类中声明的
